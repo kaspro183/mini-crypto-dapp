@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mini Crypto dApp</title>
+  </head>
+  <body style="font-family: system-ui; max-width: 720px; margin: 40px auto;">
+    <h1>Mini Crypto dApp – Greeting</h1>
+
+    <button id="connectBtn">🔌 Connect Wallet</button>
+    <p id="account">Compte: —</p>
+    <p id="network">Réseau: —</p>
+    <p id="block">Block #: —</p>
+
+    <hr />
+
+    <h3>Contrat SimpleGreeting</h3>
+    <p>
+      <label>Nouveau message :</label><br />
+      <input id="greetInput" placeholder="Hello Talent Protocol!" style="width: 100%; padding: 8px;" />
+    </p>
+    <p>
+      <button id="writeBtn">✍️ setGreeting()</button>
+      <button id="readBtn">📖 getGreeting()</button>
+    </p>
+    <p id="currentGreeting"><i>Aucun appel effectué.</i></p>
+
+    <!-- Ethers.js (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/ethers@6.11.1/dist/ethers.min.js"></script>
+
+    <!-- Ton JS -->
+    <script src="./app.js"></script>
+  </body>
+</html>
