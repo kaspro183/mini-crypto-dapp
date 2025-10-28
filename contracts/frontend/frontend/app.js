@@ -1,5 +1,5 @@
 // Adresse du contrat APRÈS déploiement (optionnel pour l’instant)
-const CONTRACT_ADDRESS = "0xYourDeployedAddress"; // TODO
+const CONTRACT_ADDRESS = "0xA153516455b918FDaEb23e3F278e3059aF3D8E75";
 
 // ABI minimale du contrat
 const CONTRACT_ABI = [
