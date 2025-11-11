@@ -1,4 +1,3 @@
-
 ## 🧾 Fonctionnalités
 
 - ✍️ Définir un message personnalisé dans le contrat (`setGreeting`)  
